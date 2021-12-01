@@ -9,7 +9,6 @@ pub fn build(b: *std.build.Builder) void {
     const exe = b.addExecutable("qi", "src/qi.zig");
 
     exe.setBuildMode(mode);
-    exe.addPackagePath("parser", "src/parser.zig");
     exe.addPackagePath("repl", "src/repl.zig");
     exe.linkSystemLibrary("c");
     const run_cmd = exe.run();
