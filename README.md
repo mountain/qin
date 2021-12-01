@@ -1,2 +1,3 @@
 # qin
-Qin is nifty
+
+Qin is after Qin Jiushao( 秦九韶 )
